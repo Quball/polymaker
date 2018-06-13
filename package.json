@@ -1,0 +1,23 @@
+{
+  "name": "polymaker",
+  "version": "1.0.0",
+  "description": "Project to test polygon manipulation",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quball/polymaker.git"
+  },
+  "author": "Thomas S. Nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quball/polymaker/issues"
+  },
+  "homepage": "https://github.com/Quball/polymaker#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.8.1"
+  }
+}
