@@ -11,6 +11,8 @@ $ npm start
 
 ## TODO
 - Write tests
+- Handle errors from api
+- Create error feedback to the user
 - Add intersection feature
 - Verify valid geoJson before storing to db
 
