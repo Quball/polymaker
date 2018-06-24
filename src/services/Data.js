@@ -8,8 +8,18 @@ const Data = {
   },
   getFeatureById: id => {
     return axios.get(`http://localhost:3000/api/polygons/${id}`).then(res => {
-      return res.data
-    })
+      return res.data;
+    });
+  },
+  postFeature: feature => {
+    return axios.post(`http://localhost:3000/api/polygons`, feature).then(res => {
+      return res
+    });
+  },
+  deleteFeature: id => {
+    return axios.delete(`http://localhost:3000/api/polygons/${id}`).then(res => {
+      return res
+    });
   }
 };
 
